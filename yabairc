@@ -1,4 +1,4 @@
-# default layout (can be bsp, stack or float)
+# default layout (can be bsp, stack or float?)
 yabai -m config layout bsp
 
 # new window spawns to the right if vertical split, or bottom if horizontal split

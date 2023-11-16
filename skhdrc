@@ -1,6 +1,6 @@
 # -- Changing Window Focus --
 
-# change window focus within space
+# change window focus within spac x
 alt - j : yabai -m window --focus south || \
 yabai -m window --focus $(yabai -m query --spaces --display south | jq '.[] | select(."is-visible" == true) | ."last-window"')
 
